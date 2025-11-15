@@ -1,44 +1,40 @@
-# Core data science
-pandas>=2.0
-numpy>=1.25
-scipy>=1.11
-scikit-learn>=1.3
+# Movie Recommendation System - Python Dependencies
 
-# Recommendation libraries (choose one or more)
-lightfm>=1.16
-implicit>=0.8
-surprise>=1.1
+# Data Processing
+numpy>=1.20.0
+pandas>=1.3.0
 
-# API & serving
-fastapi>=0.95
-uvicorn[standard]>=0.22
+# Machine Learning & NLP
+scikit-learn>=1.0.0
 
-# Persistence & utilities
-sqlalchemy>=2.1
-python-dotenv>=1.0
-orjson>=3.9
+# Web Framework
+streamlit>=1.0.0
 
-# Optional ML frameworks (comment out if unused)
-# tensorflow>=2.13
-# torch>=2.2
+# API Requests
+requests>=2.25.0
 
-# Dev / testing / tooling
-pytest>=7.4
-pytest-cov>=4.1
-black>=24.7
-isort>=5.12
-flake8>=6.2
+# Utilities
+python-dotenv>=0.19.0
 
-# Notebooks & visualization
-jupyterlab>=4.0
-matplotlib>=3.8
-seaborn>=0.12
-plotly>=5.17
+# For Jupyter Notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
 
-# Helpers
-tqdm>=4.66
-pyarrow>=12.0
+# For environment variables (API keys)
+python-dotenv>=0.19.0
 
-# Database drivers (uncomment as needed)
-# psycopg2-binary>=2.9
-# mysql-connector-
+# For data visualization (future enhancement)
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# For progress bars
+tqdm>=4.60.0
+
+# Create virtual environment
+python -m venv venv
+
+# Activate it (Windows)
+venv\Scripts\activate
+
+# Install all packages
+pip install -r requirements.txtclear
